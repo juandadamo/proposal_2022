@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.13)  26 JAN 2022 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.13)  26 JAN 2022 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,11 +789,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 Here is how much of TeX's memory you used:
  19044 strings out of 483025
  410966 string characters out of 5961724
- 800688 words of memory out of 5000000
+ 800535 words of memory out of 5000000
  33708 multiletter control sequences out of 15000+600000
  573842 words of font info for 53 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 60i,10n,83p,889b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,83p,818b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/sh
 are/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
 ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fon
@@ -802,7 +802,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on proposal.pdf (1 page, 143194 bytes).
+Output written on proposal.pdf (1 page, 142821 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
