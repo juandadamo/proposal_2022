@@ -1,0 +1,81 @@
+\documentclass[english,12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{lmodern}
+%\usepackage[]{geometry}
+\usepackage[top=1cm, bottom=2cm, left=2.3cm,right=2.3cm]{geometry}
+\usepackage{babel,amsmath}
+\usepackage[numbers]{natbib}
+\setlength{\bibsep}{0.0pt}
+\usepackage{tikz,amsmath}
+\usetikzlibrary{arrows,snakes,backgrounds,patterns,matrix,shapes,fit,calc,shadows,plotmarks}
+\begin{document}
+	
+	
+	%\section*{Internship Proposal at Buenos Aires University, Argentina}
+	% \begin{itemize}
+	% \item[-] Dr. Juan D'Adamo - Faculty of Engeneering
+	% \item[-] Dr. Veronica Raspa - Faculty of Exact and Natural Sciences
+	% \end{itemize}
+	% \vspace{0.5 cm}
+	
+	\title{Force measurements for passive flow control in Wakes}
+	\date{}
+	\maketitle
+	\vspace{-1 cm}
+	
+	
+	\begin{abstract}
+		
+		This proposal involves the upgrade and application of the force measuring system of a wind tunnel for a fluid-structure interaction problem. Present balance in the laboratory will be modified through a force gauge with load cell using Arduino acquisition card.
+		
+		In this context, drag reduction in bluff bodies flows from the passive control perspective will be characterize. Passive control requires no external energy input and mainly relies on the hydrodynamic design. We will consider the flow around a D-shape bluff body, and control will be achieve using flexible foils attached to the cylinder's surface, close to the boundary layer detachment point (as exemplified in the figure). Force measurements will be performed setting the device in a wind tunnel working in the $8000<Re<14000$ range, where preliminary results shown significant drag reduction for similar systems. The kinematics of the foils will be simultaneously recovered from fast camera recordings. These measurements allow for the characterization of the drag reduction through the wake manipulation, made by the elastic behaviour of the foils. 
+		
+		\begin{figure}[htb]
+\centering\resizebox{.7\columnwidth}{!}{%
+	\input{setup.tikz}		
+}
+		\end{figure}
+	\end{abstract}
+	
+	%\end{center}
+	\vspace{1 cm}\noindent \underline{Workplace}: University of Buenos Aires, Argentine. Fluid Dynamics Lab, Faculty of Engineering, $\&$ Physics Department, Faculty of Exact and Natural Sciences. \\
+	
+	%\begin{center}
+	\noindent\underline{Contact}:
+	\begin{itemize}\itemsep -5pt
+		\item[-] Dr. Juan D'Adamo, jdadamo@fi.uba.ar. 
+		\item[-] Dr. Veronica Raspa, raspa@df.uba.ar
+	\end{itemize}
+	
+	
+	% 	\subsection*{General Context}
+	%  Research on bluff bodies wakes such as behind a circular cylinder in a wind tunnel, inspired important applications for engineering and environmental sciences. Different flow regimes take place for different values of the Reynolds number, $Re=UD/\nu$. Stationary wakes are characterized by a linear growth of two well defined counter rotating vortices for $5<Re<47$. Following an inviscid instability of the flow, alternate vortex shedding occurs for Reynolds numbers larger than 47, forming a Bénard Von Kármán (BvK) street. From $Re>180$ the flow ceases to be 2D-stable and undergoes transition to turbulence through three-dimensional instabilities. Despite the latter, the BVK street remains the main coherent runoff structure up to $Re\sim10^5$.
+	
+	%  Flow control strategies become efficient on drag reduction through wake manipulation. On one hand, the active control of any wake requires energy input to the flow. For the wake behind the cylinder, the manipulation of the shed BvK structures showed to reduce the drag. The controlled oscillation of the cylinder's body \cite{thiria2006}, the use of a distributed flow over the surface \cite{kim2005distributed} and the addition of flaps \cite{bao2013}, MEMs \cite{lee2005flow} or electrohydrodynamical actuators \cite{jukes2009prl,dadamo2017a} were reported as suitable for the active control of the wake. Energy savings scale up to 30$\%$.
+	
+	% On the other hand, passive control requires no external energy input and mainly relies on the hydrodynamic design of bluff bodies. A Classic example is the use of dimples on the cylinder surface \cite{bearman1993control} or of a splitter plate \cite{roshko1955} to control the flow. Numerical results on drag diminishing were reported setting plates \cite{yoon2014control} or flexible filaments \cite{wu2016characteristics} behind the cylinder. In 2010, drag reduction of flexible plates by reconfiguration was demonstrated by \citet{gosselin2010drag}.
+	
+	% 	\subsection*{Objectives}
+	% 	This proposal is to use fluid-structure interactions for drag reduction in bluff bodies flows. Models for passive flow control will be developed from experimentally optimized parameters. The reconfiguration and vibration of flexible foils will be used as main elements on the modelling.	The  device adaptability to variations of the flow speed will be also subject of analysis, considering that: i) Vortical wakes are sensitive to modifications of very well define regions of the bluff body \cite{strykowski1990formation,Giannetti:2007p127}. ii) The elastic deformation of flexible foils acts on the shedded Bvk pattern.
+	
+	% % 	\subsection*{Methodology}
+	% % 	Se propone un abordaje principalmente experimental en el marco de la beca, si bien dentro de los alcances generales del trabajo se propondrá un modelo físico del problema.
+	% % 	Para ello se cuenta con instalaciones de túneles de viento del Laboratorio de Fluidodinámica de la Facultad de Ingeniería de la Universidad de Buenos Aires. El túnel donde se realizarán las principales medidas, consta de una sección de pruebas de dimensiones $0.46\times 0.46 m^2$,  y largo $0.90m$. Las velocidades que pueden desarrollarse van de $u_{\infty} = 0.5 - 6 \text{m/s}$. Se utilizará un clindro de diámetro externo $D=50$mm y de  $L\approx0.400 m$. de longitud axial. Las medidas de fuerza se harán con una balanza instalada que permite medir cambios del orden de 5mN. Fuerzas típicas en este caso serán del orden de 200mN. Se trabaja actualmente en mejoras de la balanza para agilizar la toma de medidas.
+	
+	% % 	Las maquetas del cilindro y las placas flexibles se realizarán en polimetil metacrilato (PMMA) y láminas de polietileno respectivamente. Para la caracterización  del material flexible (rigidez a la flexión, constantes de amortiguamiento, frecuencia natural de oscilación) se utilizarán métodos propuestos por Stuart\cite{stuart1966loop} y ensayos simples.
+	
+	% % 	Por otra parte, podremos tener acceso a la dinámica del escurrimiento a través de Velocimetría por Imágenes de Partículas (PIV, en su sigla en inglés). A tal efecto, contamos con un sistema Davis, LaVisión que reúne: un Láser de doble pulso two Nd:YAG de potencia 15mJ, 2 cámaras capaces de grabar dos imágenes sucesivas (CCD ImagerPro, 1600 $\times$ 1200 pix$^2$, de 14-bit de rango dinámico), y una PC con placa de adquisición que permite la sincronización de los dispositivos. A través del sistema PIV se realizará la caracterización de las estructuras coherentes del flujo en los distintos regímenes que sucedan.
+	
+	% % 	Mediante el uso de las cámaras del sistema PIV,  podrá también retratarse también la cinemática de las placas flexibles. Una limitación que tendremos es la cadencia del par de imágenes PIV, que tiene un máximo de 14Hz para cada doble instantáneas (frames, en inglés) disponibles. Una cuenta simple nos permite estimar la frecuencia del escurrimiento, que tendrá el mismo orden de magnitud que la frecuencia natural de las placas. Dado que el número de Strouhal es del orden de $0.2$, las frecuencias típicas serán del orden de 15Hz.	
+	
+	% % 	Por ese motivo, en los casos que se requiera, utilizaremos  otras cámaras rápidas disponibles en el laboratorio. En particular, una cámara Photron, permite tomar fotos de 1024$\times$1024 pix$^2$, a altas frecuencias de adquisición del orden de 1khz.
+	
+	% % 	Las experiencias permitirán relevar las relaciones de acople fluido estructura que se expresarán en función de los adimensionales que correspondan.  Daremos especial atención a las funciones del número de Cauchy C$_Y$, y de reconfiguración $\mathcal R$ (ver definiciones en p.ej. \cite{gosselin2010drag}) y otros parámetros de acople que surjan desde los resultados
+	
+	% % 	\subsection{References}
+	% 	\bibliography{citas}
+	% 	\bibliographystyle{unsrtnat}  
+	
+\end{document}
